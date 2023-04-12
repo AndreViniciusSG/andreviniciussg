@@ -1,0 +1,82 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Formatação do Body */	
+body {
+	background-color: rgba(254, 254, 254, 0.5);
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+/* Formatação do container principal */
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(13, 26, 45, 1);
+	text-align: center;
+}
+.box1{
+	background: red;
+	margin: 10px;
+}
+/* Formatação do Menu */
+nav#menu {
+	display: block;
+}
+
+/* Formatação do H1 do Menu */	
+nav#menu h1{
+	display: none;
+}
+
+/* Formatação da Posição na página da Lista do Menu */
+nav#menu ul{
+	list-style: none;
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	color: white;
+	font-size: 15pt;	
+	font-weight: bold;
+	width: 30vw;
+}
+
+/* Formatação da cor e forma da Lista do Menu */
+nav#menu li{
+	font-family: Bebas;
+	font-weight: normal;
+	display: inline-block;/* Lista em forma de fila*/
+	background-color: white;
+	background-color: green;
+	text-transform: uppercase;
+	margin: 5px;
+}
+
+/* Formatação da troca da cor da Lista do Menu Sem Link*/
+nav#menu li:hover{
+	font-size: 20pt;
+	transition: 0.5s;
+	color: rgba(51, 195, 229, 1);
+	padding: 3px;
+}
+
+/* Formatação da troca da cor da Lista do Menu */
+nav#menu a{
+	color: white;
+	text-decoration: none;
+}
+
+/* Formatação Transição de Cor do Menu com Link */
+nav#menu a:hover{
+	color: rgba(51, 195, 229, 1);
+}
