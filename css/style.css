@@ -175,3 +175,12 @@ nav#menu a:hover{
 	width: 70px;
 	height: 70px;
 }
+
+/* Formatação da section sobre */
+#sobre {
+	display: block;
+	position: relative;
+	text-align: center;
+	background-color: gray;
+	margin: ;
+}
