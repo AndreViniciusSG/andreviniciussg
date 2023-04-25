@@ -197,19 +197,21 @@ nav#menu a:hover{
 	margin-top: 50px;
 	height: auto;
 	text-align: center;
-	background-color: gray;
+	background-color: white;
 }
 
 /* Formatação do h1 da section sobre */
 #sobre h1{
 	font-family: kgred;
 	font-weight: normal;
-	font-size: 50pt;
+	text-transform: uppercase;
+	font-size: 30pt;
 	text-align: center;
 	color: black;
 	margin: auto;
 	margin-bottom: 0;
 	width: 70vw;
+	padding: 10px;
 }
 
 /* Formatação do h2 da section sobre */
@@ -222,7 +224,7 @@ nav#menu a:hover{
 	position: relative;
 	margin: auto;
 	margin-bottom: 0;
-	padding: 0;
+	padding: 10px;
 	width: 70vw;
 }
 
@@ -232,7 +234,7 @@ nav#menu a:hover{
 	font-weight: bold;
 	font-size: 18pt;
 	text-align: justify;
-	color: black;
+	color: rgba(135, 135, 130, 1);
 	position: relative;
 	margin: auto;
 	margin-bottom: 0;
@@ -240,3 +242,43 @@ nav#menu a:hover{
 	width: 70vw;
 	text-indent: 30px;
 }
+
+/* Formatação da section projetos */
+#projetos {
+	padding-top: 50px;
+	margin: auto;
+	margin-top: 50px;
+	height: auto;
+	text-align: center;
+	background-color: rgba(230, 231, 232, 1);;
+}
+
+/* Formatação h1 da section projetos */
+#projetos h1{
+	font-family: kgred;
+	font-weight: normal;
+	font-size: 30pt;
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	margin: auto;
+	margin-bottom: 0;
+	width: 70vw;
+	padding: 0px 0px 0px 0px;
+}
+
+/* Formatação do p da section projetos */
+#projetos p{
+	font-family: CaviarDreams;
+	font-weight: bold;
+	font-size: 15pt;
+	text-align: center;
+	color: black;
+	position: relative;
+	margin: auto;
+	margin-bottom: 0;
+	padding:10px;
+	width: 70vw;
+	text-indent: 30px;
+}
+
