@@ -97,19 +97,31 @@ nav#menu a:hover{
 
 /* Formatação Section Home */
 #home{
+	background-color: rgba(254, 254, 254, 1);
+	height: auto;
+}
+
+/* Formatação da div barra */
+#barra{
 	background-color: rgba(230, 231, 232, 1);
-	padding: 20px;
-	height: 35vh;
+	width: 100vw;
+	height: 300px;
+	margin: 0;
+	padding: 5px;
 }
 
 /* Formatação da imagem da section home */
-#home img{
+#barra img{
 	height: 45vh;
 	width: 45vh;
 	border-radius: 200px;
 	border:  8px solid rgba(254, 254, 254, 1);
 }
 
+
+#texto{
+	padding-top: 50px;
+}
 /* Formatação do h1 da section home */
 #home h1{
 	font-family: kgred;
@@ -169,18 +181,62 @@ nav#menu a:hover{
 	margin-top: 10px;
 }
 
+/* Formatação da imagem da div texto */
 #texto img{
-	margin: 0;
+	margin-top: 10px;
 	padding: 5px;
 	width: 70px;
 	height: 70px;
+	border: 0;
 }
 
 /* Formatação da section sobre */
 #sobre {
-	display: block;
-	position: relative;
+	padding: 50px;
+	margin: auto;
+	margin-top: 50px;
+	height: auto;
 	text-align: center;
 	background-color: gray;
-	margin: ;
+}
+
+/* Formatação do h1 da section sobre */
+#sobre h1{
+	font-family: kgred;
+	font-weight: normal;
+	font-size: 50pt;
+	text-align: center;
+	color: black;
+	margin: auto;
+	margin-bottom: 0;
+	width: 70vw;
+}
+
+/* Formatação do h2 da section sobre */
+#sobre h2{
+	font-family: Bebas;
+	font-weight: normal;
+	font-size: 30pt;
+	text-align: center;
+	color: black;
+	position: relative;
+	margin: auto;
+	margin-bottom: 0;
+	padding: 0;
+	width: 70vw;
+}
+
+/* Formatação do p da section sobre */
+#sobre p{
+	font-family: CaviarDreams;
+	font-weight: bold;
+	font-size: 18pt;
+	text-align: justify;
+	color: black;
+	position: relative;
+	margin: auto;
+	margin-bottom: 0;
+	padding: 10px;
+	width: 70vw;
+	text-indent: 30px;
 }
