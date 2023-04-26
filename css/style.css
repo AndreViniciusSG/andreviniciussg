@@ -112,8 +112,8 @@ nav#menu a:hover{
 
 /* Formatação da imagem da section home */
 #barra img{
-	height: 45vh;
-	width: 45vh;
+	height: 330px;
+	width: 330px;
 	border-radius: 200px;
 	border:  8px solid rgba(254, 254, 254, 1);
 }
@@ -263,9 +263,8 @@ nav#menu a:hover{
 	color: black;
 	text-transform: uppercase;
 	margin: auto;
-	margin-bottom: 0;
+	padding: 50px;
 	width: 70vw;
-	padding: 0px 0px 0px 0px;
 }
 
 /* Formatação do p da section projetos */
@@ -278,7 +277,7 @@ nav#menu a:hover{
 	position: relative;
 	margin: auto;
 	margin-bottom: 0;
-	padding:10px;
+	padding: 5px;
 	width: 70vw;
 	text-indent: 30px;
 }
@@ -312,8 +311,7 @@ nav#menu a:hover{
 	color: black;
 	position: relative;
 	margin: auto;
-	margin-bottom: 0;
-	padding: 10px;
+	padding-top: 50px;
 	width: 70vw;
 }
 
@@ -322,26 +320,24 @@ nav#menu a:hover{
 	font-family: CaviarDreams;
 	font-weight: bold;
 	font-size: 15pt;
-	text-align: center;
+	text-align: justify;
 	color: black;
 	position: relative;
 	margin: auto;
 	margin-bottom: 0;
 	padding:10px;
-	width: 70vw;
-	text-indent: 30px;
+	width: 50vw;
 }
 
 /* Formatação do p da div links_projetos */
 .links_projetos p{
-	font-family: Bebas;
-	font-weight: normal;
-	font-size: 15pt;
+	font-family: CaviarDreams;
+	font-weight: bold;
+	font-size: 10pt;
 	text-align: center;
 	color: rgba(135, 135, 130, 1);
 	position: relative;
 	margin: auto;
-	margin-bottom: 0;
-	padding: 10px;
+	padding-bottom: 10px;
 	width: 70vw;
 }
