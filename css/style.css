@@ -245,12 +245,11 @@ nav#menu a:hover{
 
 /* Formatação da section projetos */
 #projetos {
-	padding-top: 50px;
-	margin: auto;
-	margin-top: 50px;
+	padding-top: 25px;
+	margin: 70px;
 	height: auto;
 	text-align: center;
-	background-color: rgba(230, 231, 232, 1);;
+	background-color: rgba(230, 231, 232, 1);
 }
 
 /* Formatação h1 da section projetos */
@@ -268,7 +267,7 @@ nav#menu a:hover{
 }
 
 /* Formatação do p da section projetos */
-#projetos p{
+#projetos h2{
 	font-family: CaviarDreams;
 	font-weight: bold;
 	font-size: 15pt;
@@ -282,3 +281,57 @@ nav#menu a:hover{
 	text-indent: 30px;
 }
 
+/* Formatação da div links_projetos */
+.links_projetos{
+	padding: 20px;
+	margin-top: 50px;
+}
+
+/* Formatação das imagens da div links_projetos */
+.links_projetos img{
+	margin: 50px;
+	width: 700px;
+}
+
+/* Formatação do h3 da div links_projetos */
+.links_projetos h3{
+	font-family: Bebas;
+	font-weight: normal;
+	font-size: 30pt;
+	text-align: center;
+	color: black;
+	position: relative;
+	margin: auto;
+	margin-bottom: 0;
+	padding: 10px;
+	width: 70vw;
+}
+
+/* Formatação do h4 da section projetos */
+.links_projetos h4{
+	font-family: CaviarDreams;
+	font-weight: bold;
+	font-size: 15pt;
+	text-align: center;
+	color: black;
+	position: relative;
+	margin: auto;
+	margin-bottom: 0;
+	padding:10px;
+	width: 70vw;
+	text-indent: 30px;
+}
+
+/* Formatação do p da div links_projetos */
+.links_projetos p{
+	font-family: Bebas;
+	font-weight: normal;
+	font-size: 15pt;
+	text-align: center;
+	color: rgba(135, 135, 130, 1);
+	position: relative;
+	margin: auto;
+	margin-bottom: 0;
+	padding: 10px;
+	width: 70vw;
+}
