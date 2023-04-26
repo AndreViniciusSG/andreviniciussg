@@ -162,7 +162,7 @@ nav#menu a:hover{
 	width: 70vw;
 }
 
-/* Formatação do a da section home */
+/* Formatação do a da section home 
 #home a{
 	display: block;
 	position: relative;
@@ -180,6 +180,7 @@ nav#menu a:hover{
 	margin: auto;
 	margin-top: 10px;
 }
+*/
 
 /* Formatação da imagem da div texto */
 #texto img{
@@ -250,6 +251,7 @@ nav#menu a:hover{
 	height: auto;
 	text-align: center;
 	background-color: rgba(230, 231, 232, 1);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* Formatação h1 da section projetos */
@@ -284,13 +286,21 @@ nav#menu a:hover{
 /* Formatação da div links_projetos */
 .links_projetos{
 	padding: 20px;
+	padding-bottom: 100px;
 	margin-top: 50px;
 }
 
 /* Formatação das imagens da div links_projetos */
 .links_projetos img{
-	margin: 50px;
-	width: 700px;
+	margin: auto;
+	width: 500px;
+	border-radius: 50px;
+}
+
+.links_projetos img:hover{
+	width: 510px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	transition: 0.5s;
 }
 
 /* Formatação do h3 da div links_projetos */
