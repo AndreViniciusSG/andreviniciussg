@@ -291,15 +291,16 @@ nav#menu a:hover{
 
 /* Formatação das imagens da div links_projetos */
 .links_projetos img{
-	margin: auto;
+	margin: 10px;
 	width: 500px;
 	border-radius: 50px;
+	padding: 25px;
 }
 
 .links_projetos img:hover{
-	width: 510px;
+	width: 550px;
 	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-	transition: 0.5s;
+	transition: 0.2s;
 }
 
 /* Formatação do h3 da div links_projetos */
@@ -340,4 +341,96 @@ nav#menu a:hover{
 	margin: auto;
 	padding-bottom: 10px;
 	width: 70vw;
+}
+
+/* Formatação da section contato */
+#contato {
+	padding: 70px;
+	margin: auto;
+	margin-top: 50px;
+	height: auto;
+	text-align: center;
+	background-color: rgba(51, 51, 51, 1);
+}
+
+
+/* Formatação da section contato */
+#contato h1{
+	font-family: kgred;
+	font-weight: normal;
+	font-size: 30pt;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	margin: auto;
+	padding: 50px;
+	width: 70vw;
+}
+
+/* Formatação da div form*/	
+.form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 40vw;
+	height: 65vh;
+	padding: 10px 50px;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: rgba(135, 135, 130, 1) 0px 5px 15px;
+}
+/* Formatação do formulário*/	
+.form form{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+/* Formatação do label*/
+form label{
+	color: white;
+	font-size: 15pt;
+	font-family: Bebas;
+	font-weight: normal;
+	padding: 5px;
+}
+/* Formatação do input*/
+form input{
+	color: black;
+	font-size: 15pt;
+	font-family: Biko;
+	font-weight: normal;
+	padding: 5px;
+}
+/* Formatação do textarea*/
+form textarea{
+	color: black;
+	font-size: 10pt;
+	font-family: Biko;
+	font-weight: normal;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+/* Formatação do button*/
+form button{
+	color: rgba(135, 135, 130, 1);
+	font-size: 10pt;
+	font-family: Bebas;
+	font-weight: normal;
+	background-color: transparent;
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+	cursor: pointer;
+	border: 2px solid rgba(135, 135, 130, 1);
+	transition: 1s;
+	margin: auto;
+	letter-spacing: 2px;
+}
+/* Formatação do button*/
+form button:hover{
+	background-color: rgba(135, 135, 130, 1);
+	color: white;
+	transition: 0.5s;
+	border-radius: 20px;
+	letter-spacing: 5px;
 }

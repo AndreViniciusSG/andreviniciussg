@@ -3,7 +3,9 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<title>André Vinícius - Meu Site</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>	
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script language="javascript" src="javascript/alert.js"></script>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>		
 	</head>	
 	<body>
 		<div class="container">
@@ -15,7 +17,7 @@
 							<li><a href="index.html">Inicio</a></li>
 							<li><a href="#sobre">Sobre</a></li>
 							<li><a href="#projetos">Projetos</a></li>
-							<li><a href="contato.html">Contato</a></li>
+							<li><a href="#contato">Contato</a></li>
 						</ul>
 					</nav>				
 				</header>
@@ -63,6 +65,24 @@
 						<p>Tecnologias utilizadas: HTML e CSS.</p>
 						<a href="https://andreviniciussg.github.io/The-Last-Of-Us-III-login/" target="_blank"><img id="thelast" src="images/thelast.png"></a>
 					</div>
+				</section>
+			</div>
+			<div class="box1">
+				<section id="contato">
+					<h1>Contato</h1>
+						<div class="form">
+							<form action="https://api.staticforms.xyz/submit" method="post">
+								<label>Nome</label>
+								<input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+								<label>Email</label>
+								<input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+								<label>Mensagem</label>
+								<textarea name="message" cols="50" rows="10" placeholder="Digite sua mensagem" required></textarea>
+								<button type="submit" onclick="alerta()">Enviar</button>
+								<input type="hidden" name="accessKey" value="ba4a32c5-c709-42f3-bd62-f89c0937bf3b">
+								<input type="hidden" name="redirectTo" value="https://andreviniciussg.github.io/andreviniciussg/">
+							</form>	
+						</div>
 				</section>
 			</div>
 		</div>	
