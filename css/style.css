@@ -193,9 +193,10 @@ nav#menu a:hover{
 
 /* Formatação da section sobre */
 #sobre {
-	padding: 50px;
+	padding: 100px;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 	height: auto;
 	text-align: center;
 	background-color: white;
@@ -351,6 +352,7 @@ nav#menu a:hover{
 	height: auto;
 	text-align: center;
 	background-color: rgba(51, 51, 51, 1);
+	box-shadow: rgba(0, 0, 0, 1) 0px 2px 4px 0px, rgba(0, 0, 0, 1) 0px 2px 16px 2px;
 }
 
 
@@ -373,11 +375,12 @@ nav#menu a:hover{
 	justify-content: center;
 	align-items: center;
 	margin: auto;
-	width: 40vw;
-	height: 65vh;
+	width: 500px;
+	height: 500px;
 	padding: 10px 50px;
 	background-color: rgba(0, 0, 0, 0.5);
 	box-shadow: rgba(135, 135, 130, 1) 0px 5px 15px;
+	border-radius: 50px;
 }
 /* Formatação do formulário*/	
 .form form{
