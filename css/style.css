@@ -207,7 +207,7 @@ nav#menu a:hover{
 	font-family: kgred;
 	font-weight: normal;
 	text-transform: uppercase;
-	font-size: 30pt;
+	font-size: 50pt;
 	text-align: center;
 	color: black;
 	margin: auto;
@@ -259,7 +259,7 @@ nav#menu a:hover{
 #projetos h1{
 	font-family: kgred;
 	font-weight: normal;
-	font-size: 30pt;
+	font-size: 50pt;
 	text-align: center;
 	color: black;
 	text-transform: uppercase;
@@ -407,6 +407,7 @@ form label{
 	font-family: Bebas;
 	font-weight: normal;
 	padding: 5px;
+	text-align: left;
 }
 /* Formatação do input*/
 form input{
