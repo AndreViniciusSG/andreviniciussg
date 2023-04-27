@@ -471,3 +471,26 @@ form button:hover{
 	opacity: 1;
 	transition: 0.2;
 }
+
+/* Formatação do rodape*/
+#rodape{
+	background-color: rgba(55, 55, 55, 1);
+	width: 100%;
+	padding: 50px;
+	color: black;
+	font-family: CaviarDreams;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+/* Formatação do link do rodape*/
+#rodape a{
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+/* Formatação do link do rodape*/
+#rodape a:hover{
+	text-decoration: underline;
+}
