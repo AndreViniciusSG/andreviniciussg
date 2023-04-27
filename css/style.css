@@ -348,7 +348,7 @@ nav#menu a:hover{
 #contato {
 	padding: 70px;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 20px;
 	height: auto;
 	text-align: center;
 	background-color: rgba(51, 51, 51, 1);
@@ -365,7 +365,8 @@ nav#menu a:hover{
 	color: white;
 	text-transform: uppercase;
 	margin: auto;
-	padding: 50px;
+	padding: 20px;
+	padding-top: 10px;
 	width: 70vw;
 }
 
