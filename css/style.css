@@ -283,6 +283,17 @@ nav#menu a:hover{
 	text-indent: 30px;
 }
 
+/* Formatação do link do github */
+#projetos a{
+	text-decoration: none;
+	color: rgba(135, 135, 130, 1);
+}
+
+#projetos a:hover{
+	text-decoration: none;
+	color: rgba(51, 51, 51, 1);
+}
+
 /* Formatação da div links_projetos */
 .links_projetos{
 	padding: 20px;
@@ -437,4 +448,25 @@ form button:hover{
 	transition: 0.5s;
 	border-radius: 20px;
 	letter-spacing: 5px;
+}
+
+/* Formatação da div redes_sociais*/
+#redes_sociais{
+	padding: 10px;
+	margin-top: 10px;
+}
+
+/* Formatação das imagens da div redes_sociais*/
+#redes_sociais img{
+	width: 25px;
+	margin: 10px;
+	opacity: 0.5;
+}
+
+/* Formatação das imagens da div redes_sociais*/
+#redes_sociais img:hover{
+	width: 30px;
+	margin: 8px;
+	opacity: 1;
+	transition: 0.2;
 }
