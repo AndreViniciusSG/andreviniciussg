@@ -442,6 +442,7 @@ form button{
 	margin: auto;
 	letter-spacing: 2px;
 }
+
 /* Formatação do button*/
 form button:hover{
 	background-color: rgba(135, 135, 130, 1);
@@ -453,21 +454,26 @@ form button:hover{
 
 /* Formatação da div redes_sociais*/
 #redes_sociais{
+	margin: 10px;
 	padding: 10px;
-	margin-top: 10px;
+}
+
+/* Formatação dos links da div redes_sociais*/
+#redes_sociais a{
+	margin: 10px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
 }
 
 /* Formatação das imagens da div redes_sociais*/
 #redes_sociais img{
 	width: 25px;
-	margin: 10px;
-	opacity: 0.5;
+	opacity: 0.2;
 }
 
 /* Formatação das imagens da div redes_sociais*/
 #redes_sociais img:hover{
-	width: 30px;
-	margin: 8px;
 	opacity: 1;
 	transition: 0.2;
 }
